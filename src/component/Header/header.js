@@ -8,9 +8,9 @@ function header() {
   return (
     <nav className="p-2 flex rounded-3xl justify-between items-center content-center w-full h-16  bg-[#4CD794] text-black sm:flex-col sm:space-y-4  sm:h-32 sm:p-10 sm:items-baseline sm:rounded-b-3xl  sm:rounded-t-none ">
       <div className="flex justify-center align-center items-center  sm:justify-start  ">
-        <LInk to='/' className="flex  items-center space-x-2 ">
+        <Link to='/' className="flex  items-center space-x-2 ">
           <span className="text-lg">Kelechi Otugbuali</span>
-        </LInk>
+        </Link>
       </div>
       <div className="hidden sm:flex">
         <ul className="flex space-x-4 text-white">
