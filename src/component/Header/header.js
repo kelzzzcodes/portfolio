@@ -5,7 +5,7 @@ import MenuIcon from '@mui/icons-material/Menu'
 import CloseIcon from '@mui/icons-material/Close'
 
 const Menu =()=>(
-  <div className=" w-full flex justify-center align-center p-8 bounce-in-fwd sm:hidden">
+  <div className=" w-full flex justify-center align-center p-8 bounce-in-fwd md:hidden">
   <ul className="flex flex-col space-y-8 text-white align-center justify-center ">
     {navdata.map((nav, index) => (
       <li
@@ -28,7 +28,7 @@ function header() {
    <nav className=' bg-[#4CD794]  w-full h-16 flex flex-col p-4 space-y-4 rounded-3xl sm:rounded-t-lg md:h-32 md:p-8  '>
     <div className='flex justify-between'>
     <div className='text-black'>
-    <Link to=''>KELECHI OTUGBUALI</Link>
+    <Link to='/'>KELECHI OTUGBUALI</Link>
     </div>
       <div className='flex  md:hidden'>
       {toggleMenu ? (

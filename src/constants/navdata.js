@@ -6,12 +6,12 @@ const navdata=[
     {
         id:0,
         title: 'About',
-        path: '/About',
+        path: '/about',
     },
     {
         id:1,
         title: 'Projects',
-        path: '/About',
+        path: '/projects',
     },
     {
         id:2,

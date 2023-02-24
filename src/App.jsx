@@ -1,21 +1,23 @@
 
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
-import {Header,} from './component'
+import Header from './component/Header/header'
+import {Home,About} from './pages'
 
 import './App.css'
 
 const App = () => {
   return (
-    <div className="h-screen flex">
-      <Header/>
-      <div className="flex-1 overflow-auto ">
+    <div>
+    <Header/>
+      
         
         <Routes>
-          {/* <Route path="/" element={<BrowsePage />} /> */}
+          <Route path="/" element={<Home />} />
+          <Route path="/about" element={<About />} />
          
         </Routes>
       </div>
-    </div>
+   
   )
 }
 
