@@ -1,11 +1,12 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
+import Heroimg from '../../asset/Heroimage.jpg'
 
 function hero() {
   return (
     <div>
 
-     <div className='grid  gap-4 grid-cols-1 md:grid-cols-2'>
+     <div className='grid gap-8 grid-cols-1 md:grid-cols-2'>
      <div className='flex flex-col justify-center align-center m-auto space-y-8 '>
         <div className=' flex flex-col justify-center align-center space-y-4'>
         <h1 className='font-extrabold text-lg md:text-5xl '>Hey I'm Kelechi!</h1>
@@ -16,7 +17,11 @@ function hero() {
         </div>
       </div>
       <div>
-       <h4>Hello world </h4>
+      <div className='flex h-[25rem] justify-center align-center md:h-[30rem]'>
+      <img src={Heroimg} 
+      className='rounded-full opacity-50'
+    />
+      </div>
       </div>
 
      </div>
