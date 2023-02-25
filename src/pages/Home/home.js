@@ -5,7 +5,7 @@ import Latest from '../../component/Latest/latest'
 
 function home() {
   return (
-    <div>
+    <div className=' p-4 md:p-16 mt-16'>
      
         <Hero/>
         <Latest/>
