@@ -14,23 +14,28 @@ const navdata=[
         path: '/projects',
     },
     {
-        id:2,
-        title: 'Linkedin',
-        Icon: <LinkedInIcon/>,
-        path:"https://www.linkedin.com/in/kelzzzcodes/",
+        id:1,
+        title: 'Blog',
+        path: '/blog',
     },
-    {
-        id:3,
-        title: 'Twitter',
-        Icon: <TwitterIcon/>,
-        path:"/twitter/",
+    // {
+    //     id:2,
+    //     title: 'Linkedin',
+    //     Icon: <LinkedInIcon/>,
+    //     path:"https://www.linkedin.com/in/kelzzzcodes/",
+    // },
+    // {
+    //     id:3,
+    //     title: 'Twitter',
+    //     Icon: <TwitterIcon/>,
+    //     path:"/twitter/",
         
-    },
-    {
-        id:4,
-        title: 'Github',
-        Icon: <GitHubIcon/>
-    },
+    // },
+    // {
+    //     id:4,
+    //     title: 'Github',
+    //     Icon: <GitHubIcon/>
+    // },
 
 
 ]

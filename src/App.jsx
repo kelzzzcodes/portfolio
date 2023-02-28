@@ -9,7 +9,7 @@ const App = () => {
   return (
     <div>
     <Header/>
-    <div style={{borderBottom:'1px solid gray '}} className='mt-2'></div>
+  
       
         
         <Routes>

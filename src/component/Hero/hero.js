@@ -17,9 +17,9 @@ function hero() {
         </div>
       </div>
       <div>
-      <div className='flex h-[25rem] justify-center align-center md:h-[30rem]'>
+      <div className='flex h-[20rem] justify-center align-center md:h-[25rem]'>
       <img src={Heroimg} 
-      className='rounded-full opacity-50'
+      className='rounded-full opacity-50 border-2 border-[#4CD794]  '
     />
       </div>
       </div>
