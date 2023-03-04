@@ -14,7 +14,7 @@ const navdata=[
         path: '/projects',
     },
     {
-        id:1,
+        id:2,
         title: 'Blog',
         path: '/blog',
     },

@@ -1,14 +1,15 @@
 import React from 'react'
 
-import Hero from '../../component/Hero/hero'
-import Latest from '../../component/Latest/latest'
+import {Hero ,Latest,Popular}from '../../component'
+
 
 function home() {
   return (
-    <div className=' p-4 md:px-16 mt-8'>
+    <div className=' p-4 flex flex-col space-y-8 md:px-16 mt-8'>
      
         <Hero/>
         <Latest/>
+        <Popular/>
     </div>
   )
 }
