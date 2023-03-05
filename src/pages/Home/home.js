@@ -1,6 +1,6 @@
 import React from 'react'
 
-import {Hero ,Latest,Popular}from '../../component'
+import {Hero ,Latest,Popular,Project}from '../../component'
 
 
 function home() {
@@ -10,6 +10,7 @@ function home() {
         <Hero/>
         <Latest/>
         <Popular/>
+        <Project/>
     </div>
   )
 }
