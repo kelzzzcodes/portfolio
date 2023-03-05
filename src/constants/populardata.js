@@ -1,5 +1,5 @@
 
-import image from '../asset/mf-avatar.svg'
+import image from '../asset/react.svg'
 const populardata=[
 {
     id:0,

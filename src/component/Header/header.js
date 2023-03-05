@@ -35,8 +35,13 @@ function header() {
           }}
           className=" font-bold "
         >
-          <Link className=" hover:text-gray-500" to="/">
-            <img className="w-32 h-9 object-contain" src={logo} />
+          <Link to="/" className=" hover:text-gray-500" 
+          onClick={()=>{
+            setActive('');
+            window.scrollTo(0,0)
+          }}
+          >
+            <p>KELECHI OTUGBUALI</p>
           </Link>
         </div>
         <div className="hidden md:flex">
@@ -44,16 +49,12 @@ function header() {
             {navdata.map((nav) => (
               <li
                 key={nav.id}
-                className={`flex items-center cursor-pointer border-b-2 border-[#4CD794] 
+                className={`flex items-center cursor-pointer border-b-2 border-[#4CD794] text-white
                 hover:border-b-2 hover:border-black hover:text-gray-500
-                ${
-                  active === nav.title ?
-                  'text-green-500' :
-                  ''
-                }
+                ${active === nav.title ? 'text-green-500' : 'text-white'}
                 
                 `}
-                onClick={()=>setActive(nav.title)}
+                onClick={() => setActive(nav.title)}
               >
                 <Link to={nav.path}>
                   {nav.title} {nav.Icon}
@@ -62,17 +63,11 @@ function header() {
             ))}
           </ul>
         </div>
-        <div className="flex  md:hidden">
+        <div className="flex cursor-pointer md:hidden">
           {toggleMenu ? (
-            <CloseIcon
-              onClick={() => setToggleMenu(false)}
-              className="cursor-pointer"
-            />
+            <CloseIcon onClick={() => setToggleMenu(false)} />
           ) : (
-            <MenuIcon
-              onClick={() => setToggleMenu(true)}
-              className="cursor-pointer"
-            />
+            <MenuIcon onClick={() => setToggleMenu(true)} />
           )}
         </div>
       </div>

@@ -12,7 +12,7 @@ function popular() {
           {
             populardata.map((popular)=>(
 
-              <div key={popular.id} className="outline outline-offset-0 outline-1 outline-gray-700 rounded-md p-2">
+              <div key={popular.id} className="outline outline-offset-0 outline-1 outline-gray-800 rounded-md p-2">
               <div className="flex justify-start items-center align-center space-x-4 p-4 ">
                 <div className="w-12 h-12 ">
                   <img className="w-full" src={popular.imgUrl}/>

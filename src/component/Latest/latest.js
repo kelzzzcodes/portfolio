@@ -13,7 +13,7 @@ function latest() {
      <div className='mt-8 '>
       {latestdata.map((post)=>(
           
-          <div key={post.id} className='cursor-pointer flex  justify-between items-center py-2 '>
+          <div key={post.id} className='cursor-pointer flex  justify-between items-center py-2  border-b border-gray-700 ' >
           <p className='sm:text-base md:text-lg'>{post.tittle}</p>
             <p className=' hidden text-[#4CD794]  sm:flex'>{post.date}</p>
           </div>
