@@ -1,6 +1,6 @@
 import Home from "./Home/home";
-import About from "./About/about";
-import Blog from "./Blog/blog";
-import Project from "./Project/project";
+import Dashboard from './Dashboard/dashboard'
+import SignIn from './SignIn/signin'
+import SignUp from './SignUp/signup'
 
-export {Home,About,Blog,Project}
+export {Home,Dashboard,SignIn,SignUp}

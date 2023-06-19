@@ -6,6 +6,8 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
+  overflow: hidden;
+  width:100%;
 }
 
 body {
@@ -13,13 +15,32 @@ body {
   font-family: 'Open Sans', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color: #181818;
-  color:#ffff;
+
+  font-family: 'Poppins', sans-serif;
+ 
+ 
   
 }
 
+.bg-image {
+  background-image: url('../src/asset/herobg2.jpg');
+  background-size:cover;
+  background-repeat: no-repeat;
+  background-position: top center;
+  
+}
 
+.authenticationimage{
+  background-image: url('../src/asset/herobg2.jpg');
+  background-size:cover;
+  background-repeat: no-repeat;
+  background-position:top center;
+}
 
+.divbox-shadow{
+
+   box-shadow: 1px 1px 5px  rgba(0,0,0,0.1), -1px -1px 5px  rgba(0,0,0,0.1)
+}
 
 @tailwind base;
 @tailwind components;

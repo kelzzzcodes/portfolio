@@ -3,39 +3,28 @@ import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import TwitterIcon from '@mui/icons-material/Twitter';
 import GitHubIcon from '@mui/icons-material/GitHub';
 const navdata=[
+    
     {
         id:0,
-        title: 'About',
-        path: '/about',
-    },
-    {
+        title: 'Home',
+        path: '/',
+    },{
         id:1,
-        title: 'Projects',
-        path: '/projects',
+        title: 'About',
+        path: '#about-section',
     },
     {
         id:2,
-        title: 'Blog',
-        path: '/blog',
+        title: 'Projects',
+        path: '#projects-section',
     },
-    // {
-    //     id:2,
-    //     title: 'Linkedin',
-    //     Icon: <LinkedInIcon/>,
-    //     path:"https://www.linkedin.com/in/kelzzzcodes/",
-    // },
-    // {
-    //     id:3,
-    //     title: 'Twitter',
-    //     Icon: <TwitterIcon/>,
-    //     path:"/twitter/",
-        
-    // },
-    // {
-    //     id:4,
-    //     title: 'Github',
-    //     Icon: <GitHubIcon/>
-    // },
+    {
+        id:3,
+        title: 'Contact Us',
+        path: '#contactus-section',
+    },
+  
+   
 
 
 ]
